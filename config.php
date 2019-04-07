@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","rafahltd_root","rafahroot123","rafahltd_rafah");
+$con=mysqli_connect("localhost","root","","rafahltd_rafah");
 
 
 

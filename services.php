@@ -7,6 +7,11 @@ $type=$_GET['type'];
 $cmd="select * from service join service_img on service_img.sid=service.id where
 type like '$type%' order by sid";
 $res=  mysqli_query($con, $cmd);
+$categories= mysqli_query($con,"select id,name,type from category where parent=0");
+public function get_child($id)
+{
+    return mysqli_query($con,"select id,name,type from category where parent=".$id);
+}
 ?>  
 <head>
         <meta charset="utf-8">

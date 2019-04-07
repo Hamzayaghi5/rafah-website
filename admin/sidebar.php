@@ -6,6 +6,13 @@
                            <div class="menu">
 									<ul id="menu" >
 										<li><a href="index.php"><i class="fa fa-tachometer"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
+
+											<li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i><span> Category</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
+											<ul id="menu-academico-sub" >
+												<li id="menu-academico-avaliacoes" ><a href="add_category.php">Add</a></li>
+												<li id="menu-academico-avaliacoes" ><a href="category_edit.php">Edit</a></li>
+											</ul>
+										</li>
 										<li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i><span> Products</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
 											<ul id="menu-academico-sub" >
 												<li id="menu-academico-avaliacoes" ><a href="add_product.php">Add</a></li>

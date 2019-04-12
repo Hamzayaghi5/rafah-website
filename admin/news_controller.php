@@ -1,4 +1,6 @@
 <?php
+$website="http://rafah-ltd.com/admin/news_edit.php";
+$website2="http://rafah-ltd.com/admin/add_news.php";
 include('../config.php');
 include ('check_session.php');
 $status=$_GET['status'];
@@ -14,7 +16,7 @@ $query="INSERT INTO `news`(`en_title`,`en_desc`, `ar_title`, `ar_desc`, `url`,`d
 $result=mysqli_query($con,$query);
             if($result)
             {
-                        header("Location: add_news.php");
+                         echo "<script type='text/javascript'>window.top.location='$website';</script>"; exit;
 
             }
 
@@ -32,7 +34,7 @@ $query="UPDATE `news` SET  `en_title`='$en_title',`en_desc`='$en_desc',`ar_title
 $result=mysqli_query($con,$query);
             if($result)
             {
-                        header("Location: news_edit.php");
+                        echo "<script type='text/javascript'>window.top.location='$website';</script>"; exit;
 
             }
 
@@ -50,7 +52,7 @@ $query="UPDATE `news` SET  `en_title`='$en_title',`en_desc`='$en_desc',`ar_title
 $result=mysqli_query($con,$query);
             if($result)
             {
-                        header("Location: news_edit.php");
+                           echo "<script type='text/javascript'>window.top.location='$website';</script>"; exit;
 
             }
 

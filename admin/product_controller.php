@@ -1,4 +1,6 @@
 <?php
+$website='http://rafah-ltd.com/admin/add_product.php';
+$website2='http://rafah-ltd.com/admin/product_edit.php';
 include('../config.php');
 
 $status=$_GET['status'];
@@ -76,7 +78,7 @@ $result=mysqli_query($con,$query);
 
             if($result)
             {
-                        header("Location: add_product.php");
+                       echo "<script type='text/javascript'>window.top.location='$website';</script>"; exit;
 
             }
 
@@ -94,7 +96,7 @@ $result=mysqli_query($con,$query);
 	 
 	  if($result)
             {
-				header("Location: product_edit.php");
+			   echo "<script type='text/javascript'>window.top.location='$website2';</script>"; exit;
 
             }
 

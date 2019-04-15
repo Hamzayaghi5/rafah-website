@@ -49,7 +49,7 @@ $news_res=  mysqli_query($con,"select id,ar_title,DATE_FORMAT(date,'%b %d %Y') a
                 <div id="top-bar-wrapper" class="dark clearfix">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-10 col-sm-10 col-xs-11">
+                            <div class="col-md-9 col-sm-10 col-xs-11">
                                 <ul id="quick-links" class="clearfix">
                                     <li>
                                         <span class="icon-container">
@@ -69,11 +69,11 @@ $news_res=  mysqli_query($con,"select id,ar_title,DATE_FORMAT(date,'%b %d %Y') a
                                         <span class="icon-container">
                                             <img src="../img/svg/email.svg" class="img-responsive" alt="email icon"/>
                                         </span>
-                                        <a href="contact.php"><strong>البريد الالكتروني:</strong> info@rafah.ltd</a>
+                                        <a href="contact.php"><strong>البريد الالكتروني:</strong> info@rafah-ltd.com</a>
                                     </li>
                                 </ul><!-- .quick links end -->
                             </div><!-- .col-md-10 end -->
-                            <div class="col-md-2 col-sm-2 col-xs-1">
+                            <div class="col-md-3 col-sm-2 col-xs-1">
                                 
                                 <!-- .social-links start -->
                                 <ul class="social-links">
@@ -84,6 +84,7 @@ $news_res=  mysqli_query($con,"select id,ar_title,DATE_FORMAT(date,'%b %d %Y') a
                                     
                                 </ul>
                                 <!-- .social-links end -->
+                                <a href="https://rafah-ltd.com:2096/" style="font-weight:bold" target="blank"><span dir="rtl">تسجيل الدخول</span></a>
                                 <a style="font-weight: bold" href="../index.php"><span dir="ltr">En</span></a>
                                 <a style="font-family: 'Droid Arabic Kufi', serif;" href="index.php"><span dir="ltr">عربي</span></a>
                             </div><!-- .col-md-2 end -->
@@ -152,6 +153,7 @@ $news_res=  mysqli_query($con,"select id,ar_title,DATE_FORMAT(date,'%b %d %Y') a
                                                           </ul>
                                                               <li ><a  href="services.php?type=air">Air to Water Unit</a></li>
                                                               <li ><a  href="services.php?type=chiller">Chiller</a></li>
+                                                              <li ><a  href="services.php?type=conditioner">Conditioner</a></li>
                                                               <li ><a  href="services.php?type=controller">Controller</a></li>
                                                               
                                                             </ul>
@@ -668,7 +670,7 @@ $news_res=  mysqli_query($con,"select id,ar_title,DATE_FORMAT(date,'%b %d %Y') a
                                 <span class="icon-container">
                                     <img src="../img/svg/email.svg" class="img-responsive" alt="email icon"/>
                                 </span>
-                                <a href="contact.php"><strong>البريد الالكتروني:</strong> info@rafah.ltd</a>
+                                <a href="contact.php"><strong>البريد الالكتروني:</strong> info@rafah-ltd.com</a>
                             </div>
                         </div><!-- .col-md-3 end -->
                     </div><!-- .row end -->

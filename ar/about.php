@@ -42,7 +42,7 @@
                 <div id="top-bar-wrapper" class="dark clearfix">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-10 col-sm-10 col-xs-11">
+                            <div class="col-md-9 col-sm-10 col-xs-11">
                                 <ul id="quick-links" class="clearfix">
                                     <li>
                                         <span class="icon-container">
@@ -62,11 +62,11 @@
                                         <span class="icon-container">
                                             <img src="../img/svg/email.svg" class="img-responsive" alt="email icon"/>
                                         </span>
-                                        <a href="contact.php"><strong>البريد الالكتروني:</strong> info@rafah.ltd</a>
+                                        <a href="contact.php"><strong>البريد الالكتروني:</strong> info@rafah-ltd.com</a>
                                     </li>
                                 </ul><!-- .quick links end -->
                             </div><!-- .col-md-10 end -->
-                            <div dir="rtl" class="col-md-2 col-sm-2 col-xs-1">
+                            <div dir="rtl" class="col-md-3 col-sm-2 col-xs-1">
                                 
                                 <!-- .social-links start -->
                                 <ul class="social-links">
@@ -74,6 +74,7 @@
                                      <li><a href="#"><i class="fa fa-twitter" style="color:grey;"></i></a></li>
                                     <li><a href="#"><i class="fa fa-linkedin" style="color:grey;"></i></a></li>
                                 </ul><!-- .social-links end -->
+                                <a href="https://rafah-ltd.com:2096/" style="font-weight:bold" target="blank"><span dir="rtl">تسجيل الدخول</span></a>
                                 <a style="bold" href="../about.php"><span dir="ltr">En</span></a>
                                 <a style="font-family: 'Droid Arabic Kufi', serif;" href="about.php"><span dir="ltr">عربي</span></a>
                             </div><!-- .col-md-2 end -->
@@ -142,6 +143,7 @@
                                                           </ul>
                                                               <li ><a  href="services.php?type=air">Air to Water Unit</a></li>
                                                               <li ><a  href="services.php?type=chiller">Chiller</a></li>
+                                                              <li ><a  href="services.php?type=conditioner">Conditioner</a></li>
                                                               <li ><a  href="services.php?type=controller">Controller</a></li>
                                                               
                                                             </ul>
@@ -192,55 +194,43 @@
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
-        <div dir="rtl" class="page-content">
+        <!-- -->
+        <div dir = "rtl" class="page-content">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="feature-box style-2">
                             <div class="feature-media">
-                                <img src="../img/pics/img-11.jpg" class="img-responsive" alt="Rafah LTD"/>
-
-                                <a href="https://vimeo.com/251475932" class="read-more video-post">
-                                    <span class="icon-container">
-                                        <img class="svg-black img-responsive" src="../img/svg/video.svg" alt="video icon"/>
-                                    </span>
-                                </a>
+                                <img src="../img/pics/img-11.jpg" style="max-width:555px;max-height:555px;" class="img-responsive"  alt="Rafah LTD"/>
 
                             </div><!-- .feature-media end -->
-
-                            <div class="feature-body">
-                                <div class="custom-heading style-1">
-                                    <h4>فيديو مقدمة</h4>
-                                </div><!-- .custom-heading end -->
-
-                                <p>
-                                   فيديو قصير عن الشركة، انها الإنتاج والإنجازات.
-                                </p>
-                            </div><!-- .feature-body end -->
+                        <!-- .feature-body end -->
                         </div><!-- .feature-box-end -->
                     </div><!-- .col-md-6 end -->
 
-                    <div  dir="rtl" class="col-md-6 col-sm-6">
+                    <div class="col-md-6 col-sm-6">
                         <div class="feature-box style-2">
                             <div class="feature-media">
-                                <img src="../img/pics/img-12.jpg" class="img-responsive" alt="Rafah LTD"/>
+                                <img src="../img/pics/img-12.jpg" style="max-width:555px;height:555px;" class="img-responsive" alt="Rafah LTD"/>
 
                             </div><!-- .feature-media end -->
 
-                            <div class="feature-body">
-                                <div class="custom-heading style-1">
-                                    <h4>الرفاه</h4>
-                                </div><!-- .custom-heading end -->
+                            <!-- .feature-body end -->
+                        </div>
+                        <!-- .feature-box-end -->
+                    </div>
+                    <div class="feature-body col-md-12 col-sm-12">
+                                
+                                  <br>  <h4>    الرفاه </h4>
+                                <!-- .custom-heading end -->
 
                                 <p>
-                                  	شركة الرفاه المحدودة المسؤولية هي شركة متخصصه بمجال أعمال التكييف المركزي والتدفئة المركزية وأعمال الصحية والطاقة الشمسية
+                                شركة الرفاه المحدودة المسؤولية هي شركة متخصصه بمجال أعمال التكييف المركزي والتدفئة المركزية وأعمال الصحية والطاقة الشمسية
 	 تأسست الشركة عام 2004 
 .
 
                                 </p>
-                            </div><!-- .feature-body end -->
-                        </div><!-- .feature-box-end -->
-                    </div><!-- .col-md-6 end -->
+                            </div><!-- .col-md-6 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
@@ -343,7 +333,7 @@
                                 <span class="icon-container">
                                     <img src="../img/svg/email.svg" class="img-responsive" alt="email icon"/>
                                 </span>
-                                <a href="contact.php"><strong>البريد الالكتروني:</strong> info@rafah.ltd</a>
+                                <a href="contact.php"><strong>البريد الالكتروني:</strong> info@rafah-ltd.com</a>
                             </div>
                         </div><!-- .col-md-3 end -->
                     </div><!-- .row end -->
